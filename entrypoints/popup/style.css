@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #213547;
+  background-color: #f5f3e5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  padding: 16px 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #747bff;
+}
+
+img {
+  max-width: 348px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid #cb3a46;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f5f3e5;
+  color: #cb3a46;
+  cursor: pointer;
+}
+button:hover {
+  border-color: #ce7e84;
+  color: #ce7e84;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button.selected {
+  background-color: #cb3a46;
+  color: #f9f9f9;
+}
+button.selected:hover {
+  background-color: #ce7e84;
+  color: #f9f9f9;
+}
+
+.mode-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.gm-actions {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  gap: 4px;
+  border-bottom: 1px solid #81818d;
+}
+
+.import textarea {
+  display: block;
+  width: 312px;
+  height: 70px;
+  font-size: 12px;
+}
+
+.import-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.gm-menu {
+  border-top: 1px solid #81818d;
+  margin: 8px 16px 0;
+  padding-top: 8px;
+}
+
+.list-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
+  justify-items: start;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  gap: 16px;
+  border-bottom: 1px solid #81818d;
+  font-size: 1rem;
+}
+
+.icon-button {
+  border: none;
+  font-size: 1.5rem;
+  padding: 0;
+  color: #81818d;
+  cursor: pointer;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}

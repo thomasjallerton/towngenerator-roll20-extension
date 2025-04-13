@@ -1,0 +1,9 @@
+.roll-20-ftg-iframe {
+    height: 100vh;
+    position: fixed;
+    z-index: 98;
+}
+
+.roll-20-ftg-overlay {
+    /*z-index: 20001 !important;*/
+}

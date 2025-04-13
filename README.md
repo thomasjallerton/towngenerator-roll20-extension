@@ -1,2 +1,3 @@
-# towngenerator-roll20-extension
-Chrome extension for Fantasy Town Generator integration in Roll20.
+# WXT + React
+
+This template should help get you started developing with React in WXT.
