@@ -3,7 +3,8 @@ import {getMode} from "@/src/settings.ts";
 
 interface OpenSettlement {
     id: string,
-    close: () => void
+    close: () => void,
+    sync: () => void
 }
 
 export default defineContentScript({
@@ -54,6 +55,9 @@ export default defineContentScript({
             } else if (command === 'close') {
                 openSettlement?.close();
                 openSettlement = null;
+            } else if (command === 'sync') {
+                openSettlement?.sync();
+                openSettlement = null;
             } else if (command === 'help') {
                 postChatMessage("available commands:\n- open $settlementId\n- close\n- refresh\n- help");
             } else {
@@ -87,9 +91,19 @@ async function openFantasyTownGenerator(settlementId: string): Promise<OpenSettl
     return {
         id: settlementId,
         close: () => {
+            const elements = document.getElementsByClassName("roll-20-ftg-iframe")
+            for (const element of elements) {
+                element.remove()
+            }
             masterToolBar.style.display = "";
             rightResizeObserver.disconnect()
-            iframe.remove()
+        },
+        sync: () => {
+            const elements = document.getElementsByClassName("roll-20-ftg-iframe")
+            for (const element of elements) {
+                const iframe = element as HTMLIFrameElement
+                iframe.src = iframe.src
+            }
         }
     }
 }

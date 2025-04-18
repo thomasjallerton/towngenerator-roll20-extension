@@ -59,6 +59,7 @@ function GmMenu() {
             <>
                 <div className="gm-actions">
                     <button onClick={() => postChat("ftg close")}>Close map</button>
+                    <button onClick={() => postChat("ftg sync")}>Sync</button>
                     <button onClick={() => setTab('import')}>Import settlement</button>
                 </div>
                 <Settlements/>
