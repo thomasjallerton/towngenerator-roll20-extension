@@ -12,11 +12,15 @@ export default defineContentScript({
     async main() {
         console.log("FTG Roll20 | Module initializing");
         const chat = document.getElementById("textchat-input")!;
-        const txt = chat.getElementsByTagName("textarea")[0];
-        const btn = chat.getElementsByTagName("button")[0];
-        const speakingAs = document.getElementById("speakingas")! as HTMLSelectElement;
+
 
         function postChatMessage(message: string) {
+            const txt = chat.getElementsByTagName("textarea")?.[0];
+            const btn = chat.getElementsByTagName("button")?.[0];
+            const speakingAs = document.getElementById("speakingas") as HTMLSelectElement;
+
+            if (txt == null || btn == null || speakingAs == null) return;
+
             const old_as = speakingAs.value;
             (speakingAs.childNodes[0] as HTMLOptionElement).selected = true;
             const old_text = txt.value;
@@ -28,8 +32,10 @@ export default defineContentScript({
 
         let openSettlement: OpenSettlement | null = null
 
-        const messagesContainer = document.getElementById("textchat")!
-            .getElementsByClassName("content")[0];
+        const messagesContainer = document.getElementById("textchat")
+            ?.getElementsByClassName("content")?.[0];
+
+        if (messagesContainer == null) return
 
         const chatObserver = new MutationObserver(async () => {
             const messages = messagesContainer.getElementsByClassName("message general")

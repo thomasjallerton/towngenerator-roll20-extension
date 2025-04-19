@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="d20.svg"
+   inkscape:export-filename="C:\Users\Thomas Allerton\Documents\Dev\towngenerator-roll20-extension\assets\d20.png"
+   inkscape:export-xdpi="222.96942"
+   inkscape:export-ydpi="222.96942">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="255.20434"
+     inkscape:cy="511.30697"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#d0118d;fill-opacity:1;stroke:#ffffff;stroke-width:0.36635819;stroke-opacity:1"
+       id="path4885"
+       sodipodi:sides="6"
+       sodipodi:cx="101.54768"
+       sodipodi:cy="162.83068"
+       sodipodi:r1="32.499477"
+       sodipodi:r2="28.145372"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 129.69306,179.08041 -28.14538,16.24974 -28.145369,-16.24974 0,-32.49948 28.145369,-16.24973 28.14538,16.24973 z"
+       inkscape:transform-center-y="-1.3211619e-05"
+       inkscape:transform-center-x="2.014286e-06"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 101.5811,140.28162 19.47007,33.72315 H 82.209822 Z"
+       id="path4931"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 101.54768,130.3312 0.0334,9.95042 28.11195,6.29931 z"
+       id="path4933"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 129.69305,146.58093 -8.64188,27.42384 8.64188,5.07564 z"
+       id="path4935"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 101.54768,130.3312 0.0334,9.95042 -28.178789,6.29931 z"
+       id="path4937"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 73.402311,146.58093 8.807511,27.42384 -8.807511,5.07564 z"
+       id="path4939"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 82.209822,174.00477 101.54768,195.33015 73.402311,179.08041 Z"
+       id="path4941"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 121.05117,174.00477 8.64188,5.07564 -28.14537,16.24974 z"
+       id="path4943"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Thomas Allerton\path4943.png"
+       inkscape:export-xdpi="222.96942"
+       inkscape:export-ydpi="222.96942" />
+  </g>
+</svg>
