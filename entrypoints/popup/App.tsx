@@ -97,7 +97,7 @@ function Settlements() {
     return <>
         {settlements.length === 0 && 'No settlements imported'}
         {settlements.map(settlement => (
-            <div className="list-item">
+            <div className="list-item" key={settlement.name}>
                 {settlement.name}
                 {canOpen && (
                     <>

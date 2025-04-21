@@ -10,9 +10,7 @@ interface OpenSettlement {
 export default defineContentScript({
     matches: ['*://app.roll20.net/*'],
     async main() {
-        console.log("FTG Roll20 | Module initializing");
         const chat = document.getElementById("textchat-input")!;
-
 
         function postChatMessage(message: string) {
             const txt = chat.getElementsByTagName("textarea")?.[0];
@@ -43,7 +41,7 @@ export default defineContentScript({
             if (lastMessage === undefined) {
                 return;
             }
-            const message = lastMessage.childNodes.values().find(node => node.nodeType === 3)?.textContent ?? "";
+            const message = [...lastMessage.childNodes.values()].find(node => node.nodeType === 3)?.textContent ?? "";
 
             if (!message.startsWith("ftg ")) {
                 return;
@@ -63,7 +61,6 @@ export default defineContentScript({
                 openSettlement = null;
             } else if (command === 'sync') {
                 openSettlement?.sync();
-                openSettlement = null;
             } else if (command === 'help') {
                 postChatMessage("available commands:\n- open $settlementId\n- close\n- refresh\n- help");
             } else {
