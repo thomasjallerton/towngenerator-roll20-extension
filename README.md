@@ -6,6 +6,7 @@ and people.
 This integration is provided as a browser extension:
 
 - [Chrome link](https://chromewebstore.google.com/detail/fbjnkjgbkdbjmecngofkinnjjafhfpcl?utm_source=item-share-cb)
+- [Firefox link](https://addons.mozilla.org/addon/fantasy-town-generator-roll20/)
 
 ## Usage guide
 
