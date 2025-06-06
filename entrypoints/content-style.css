@@ -1,6 +1,7 @@
 .roll-20-ftg-iframe {
     height: 100vh;
     position: fixed;
+    top: 0;
     z-index: 98;
 }
 

@@ -8,7 +8,7 @@ export default defineConfig({
   },
   manifest: {
     name: "Fantasy Town Generator - Roll20",
-    version: "1.0.1",
+    version: "1.0.2",
     description: "Display interactive Fantasy Town Generator maps inside Roll20.",
     permissions: ['storage', 'activeTab', 'scripting'],
   }
